@@ -32,6 +32,8 @@ WRAPPER RULES
     background-size: cover;
     background-position: center;
     padding: 3rem;
+    overflow-y: auto;
+    max-height: 50vh;
 }
 
     /* h1 - 2-3-4-5-6 and p styles */

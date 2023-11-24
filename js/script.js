@@ -15,22 +15,38 @@ do la possibilità all’utente di inserire voci nella lista
 
 //step 1 - definire la lista della spesa e il bottone
 
-let listaSpesa = [];
 
 let plusButton = document.getElementById('plus');
 // step 2 attivare l'evento click
 
-plusButton.addEventListener('click', function() {
+plusButton.addEventListener('click', function(){
 
-    //step 3 riconoscere il valore dell'oggetto della spesa
-    let itemToBuy = document.getElementById('item_box').value;
-    console.log(itemToBuy); 
-
-    listaSpesa.push(itemToBuy);
-
-    console.log(listaSpesa);
     
+    listaUl = document.querySelector('.Ullist');
+
+    
+    let listaSpesa = ['pane', 'pasta', 'mele', 'pere', 'maiale', 'branzino'];
+
+    
+    let elementList = '';
+
+   
+
+    let i = 0;
+
+    while (i < listaSpesa.length) {
+
+     
+
+      
+        elementList = `<li> ${listaSpesa[i]} </li>`
+
+   
+        listaUl.innerHTML += elementList;
+
+        i++;
 
     }
+}
 );
 
