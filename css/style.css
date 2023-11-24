@@ -41,5 +41,15 @@ WRAPPER RULES
 
     .form h3{
         margin: 1rem 0;
-        
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    /* form rules */
+    input::placeholder {
+        font-size: 1.3rem;
+    }
+    input {
+        height: 40px;
+        width: 60%;
     }
