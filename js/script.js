@@ -11,3 +11,13 @@ P.S::
 volendo BONUS:
 do la possibilità all’utente di inserire voci nella lista
 */
+// Definisco una lista della spesa vuota che l'utente dovra riempire finche continua ad inserire oggetti nel riqadro, per inserire gli oggetti nella lista, dovra cliccare sul tasto + , il tasto piu attivera una funzione che dovra far partire un loop fino ad un massimo di 50 elementi per lista della spesa;
+
+//step 1 - definire la lista della spesa e il bottone
+
+let listaSpesa = [];
+
+let plusButton = document.getElementById('plus');
+// step 2 attivare l'evento click
+
+
