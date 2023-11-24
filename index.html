@@ -21,11 +21,24 @@
 <body>
     <!-- wrapper -->
     <div class="wrapper">
-        <h1>
-            La mia lista della spesa
-        </h1>
-        <div class="note">
+        <div class="container-fluid d-flex flex-grow-1 flex-column absolute ">
+            <h1 class="text-center">
+                La mia lista della spesa
+            </h1>
+            <div class="note d-flex justify-content-center">
+                <form class="form" action="#">
+                    <h3>
+                        Che cosa ti manca in casa?
+                    </h3>
+                    <input type="text" id="item_box">
+                    <button class="btn bg-warning ms-3">
+                        <i class="fa-solid fa-plus fa-beat"></i>
+                    </button>
+                </form>
+                <div class="js_container">
 
+                </div>
+            </div>
         </div>
     </div>
     <!-- file script -->
