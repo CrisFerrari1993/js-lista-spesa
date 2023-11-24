@@ -20,4 +20,17 @@ let listaSpesa = [];
 let plusButton = document.getElementById('plus');
 // step 2 attivare l'evento click
 
+plusButton.addEventListener('click', function() {
+
+    //step 3 riconoscere il valore dell'oggetto della spesa
+    let itemToBuy = document.getElementById('item_box').value;
+    console.log(itemToBuy); 
+
+    listaSpesa.push(itemToBuy);
+
+    console.log(listaSpesa);
+    
+
+    }
+);
 
