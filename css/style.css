@@ -16,6 +16,9 @@ WRAPPER RULES
     width: 100%;
     height: 100vh;
     display: flex;
+    background-image: url(https:cdn.mos.cms.futurecdn.net/2Xw5wi62c9eG6M4Uha5HMU.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .absolute {
@@ -39,6 +42,9 @@ WRAPPER RULES
     /* h1 - 2-3-4-5-6 and p styles */
     .wrapper h1{
         font-size: 5rem;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        text-decoration: underline;
     }
 
     .form h3{
