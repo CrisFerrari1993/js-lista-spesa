@@ -26,17 +26,17 @@
                 La mia lista della spesa
             </h1>
             <div class="note ">
-                <form class="form text-center" action="">
+                <form class="form text-center" action="#">
                     <h3>
                         Che cosa ti manca in casa?
                     </h3>
-                    <input type="text" id="item_box" placeholder="Scrivi qui cosa manca in casa">
-                    <button type="reset" id="plus" class="btn bg-warning ms-3">
-                        <i class="fa-solid fa-plus fa-beat"></i>
+                    <input type="text" id="elemento-input" placeholder="Scrivi qui cosa manca in casa">
+                    <button onclick="aggiungiElemento()" type="submit" id="plus" class="btn bg-warning ms-3">
+                        <i class="fa-solid fa-plus"></i> <span>Aggiungi alla lista</span>
                     </button>
                 </form>
-                <div class="js_container d-flex justify-content-center">
-                    <ul class="Ullist">
+                <div class="js_container d-flex">
+                    <ul id="spesa-lista">
                         
                     </ul>
                 </div>

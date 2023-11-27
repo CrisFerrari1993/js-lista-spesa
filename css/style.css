@@ -60,4 +60,9 @@ WRAPPER RULES
     input {
         height: 40px;
         width: 60%;
+        font-size: 2rem;
     }
+    #spesa-lista li {
+        font-size: 2rem;
+        text-align: left;
+    } 
